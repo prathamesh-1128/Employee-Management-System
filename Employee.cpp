@@ -379,22 +379,23 @@ int main()
 
     while(choice!=0)
     {
-        cout<<"-----------------------\n";
-        cout<<"Enter Choice\n";
-        cout<<"1:Insert First\n";
-        cout<<"2:Enter at Last\n";
-        cout<<"3:Enter at Position\n";
-        cout<<"4:Delete First\n";
-        cout<<"5:Delete Last\n";
-        cout<<"6:Delete at Position\n";
-        cout<<"7:Display Information of Employee\n";
+        cout<<"*******************\n";
+        cout<<"Enter Choice\n\n";
+        cout<<"1:Insert As fresher\n";
+        cout<<"2:Enter as Experienced\n";
+        cout<<"3:Enter as Intermidate\n";
+        cout<<"4:Delete Fresher\n";
+        cout<<"5:Delete Experienced\n";
+        cout<<"6:Delete Intermidate\n";
+        cout<<"7:Display Information of Employees\n";
         cout<<"8:Count of Employee\n";
         cout<<"9:Information of Employee with Maximum Salaray\n";
         cout<<"10:Average Salary in Company\n";
         cout<<"11:Average Age of Employees\n";
         cout<<"12:Display Age By Condition\n";
         cout<<"13:Update information\n";
-        cout<<"0:Exit\n";
+        cout<<"0:Exit\n\n";
+        cout<<"*******************\n";
         
         cin>>choice;
 
@@ -473,6 +474,6 @@ int main()
         }
     }
 
-    cout<<"-----------------------\n";
+    cout<<"*******************\n";
     return 0;
 }
